@@ -37,7 +37,7 @@ Ressoflix é um aplicativo Android que permite aos usuários navegar e acessar r
 
   1. **Clonar o Repositório:**
 
-    git clone https://github.com/usuario/RessoFlix.git
+    git clone https://github.com/usuario/RessoFlix.git](https://github.com/oHenryy/Ressoflix.git
 
   2. **Abrir no Android Studio:**
      

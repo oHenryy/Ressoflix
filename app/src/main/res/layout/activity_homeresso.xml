@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".homeresso">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TableRow android:gravity="center">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvmv"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:fontFamily="@font/gegular"
+    />
+    </TableRow>
+
+    <HorizontalScrollView>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+    <TableRow>
+        <ImageButton
+            android:id="@+id/btcarol"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"
+            android:background="@color/black"
+            app:srcCompat="@drawable/coraline"
+            android:layout_marginRight="10dp"/>
+
+        <ImageButton
+            android:id="@+id/btmons"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10dp"
+            android:background="@color/black"
+            app:srcCompat="@drawable/casamons" />
+
+        <ImageButton
+            android:background="@color/black"
+            android:backgroundTint="@color/black"
+            android:id="@+id/btluca"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/luca" />
+
+        <ImageButton
+            android:id="@+id/btraya"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="@color/black"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/raya" />
+
+        <ImageButton
+            android:id="@+id/btviz"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:background="@color/black"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/vizinhos" />
+
+        <ImageButton
+            android:id="@+id/bthdt"
+            android:layout_width="150dp"
+            android:background="@color/black"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/homemdatreva" />
+    </TableRow>
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+    <TableRow android:gravity="center">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/tvms"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:fontFamily="@font/gegular"
+            />
+
+    </TableRow>
+
+    <HorizontalScrollView>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+
+                <ImageButton
+                    android:id="@+id/czc"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:background="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/czc" />
+
+                <ImageButton
+                    android:id="@+id/tellem"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:background="@color/black"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/tellem" />
+
+                <ImageButton
+                    android:id="@+id/mtmt"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:background="@color/black"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/mtmt" />
+
+                <ImageButton
+                    android:id="@+id/daddy"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:background="@color/black"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/daddyissues" />
+
+                <ImageButton
+                    android:id="@+id/darkred"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:background="@color/black"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/darkred" />
+
+                <ImageButton
+                    android:id="@+id/afterdark"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:background="@color/black"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/afterdark" />
+
+
+
+            </TableRow>
+
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+    </TableLayout>
+
+</ScrollView>

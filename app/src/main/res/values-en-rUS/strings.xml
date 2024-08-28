@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ressoflix</string>
+    <string name="tvmv">Movies</string>
+    <string name="tvms">Music</string>
+    <string name="tvsenha">Password</string>
+    <string name="tventrar">Log In</string>
+    <string name="tvl">Remember me</string>
+    <string name="tvp">Need help?</string>
+</resources>

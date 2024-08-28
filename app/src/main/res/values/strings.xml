@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ressoflix</string>
+    <string name="tvmv">Filmes</string>
+    <string name="tvms">Músicas</string>
+    <string name="tvsenha">Senha</string>
+    <string name="tventrar">Entrar</string>
+    <string name="tvl">Lembre-me</string>
+    <string name="tvp">Precisa de ajuda?</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESSOFLIX"
+            android:textColor="#FF0303"
+            android:textSize="45dp"
+            android:fontFamily="@font/deathstar"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <TextView
+            android:id="@+id/titulop2"
+            style="@style/TextAppearance.AppCompat.Menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="150dp"
+            android:text="@string/tventrar"
+            android:textColor="#FFFFFF"
+            android:textSize="23dp"
+
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/loginentrada"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/titulop2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="#808080"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/senhaentrada"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/loginentrada"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="@string/tvsenha"
+            android:inputType="numberPassword"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="#808080"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btentrada"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/senhaentrada"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/custom_botaosolido"
+            android:text="@string/tventrar"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            app:backgroundTint="#DD0711" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btentrada"
+            android:textColor="@color/white"
+            android:layout_marginLeft="30dp"
+            android:textSize="15dp"
+            android:text="@string/tvl" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btentrada"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"
+            android:text="@string/tvp" />
+
+
+    </RelativeLayout>
+</ScrollView>
